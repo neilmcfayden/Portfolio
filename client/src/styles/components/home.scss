@@ -1,0 +1,38 @@
+.homepage {
+  background-color:#12263A;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 90pc;
+  height: 70pc;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: #7C9EB2;
+  text-align: center;
+  font-family: fantasy;
+}
+.home-links {
+  display: flex;
+}
+
+.home-button  {
+  width: 180px;
+  height: 100px;
+  background-color: #7C9EB2;
+  color: aquamarine;
+  font-size: larger;
+  border-radius: 10px;
+  font-family: fantasy;
+  margin: 15px;
+}
+#description {
+  color: #7C9EB2;
+}
+.title-div {
+  margin-top: 10pc;
+}
+.contacts {
+  margin-top: 40px;
+}

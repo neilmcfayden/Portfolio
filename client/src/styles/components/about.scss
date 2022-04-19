@@ -1,0 +1,39 @@
+.about , .portfolio , .poker , .investing , .sports  {
+  background-color:#12263A;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // height: 100pc;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: #7C9EB2;
+  text-align: center;
+  font-family: fantasy;
+  padding-bottom: 100px;
+  
+}
+
+.para {
+  margin: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.title {
+  margin-top: 60px;
+}
+.skill {
+  color: aquamarine;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
