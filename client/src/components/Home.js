@@ -7,6 +7,7 @@ const Home = () => {
   const gitHubPage = () => { window.open("https://github.com/neilmcfayden") }
   const linkedInPage = () => { window.open("https://www.linkedin.com/in/neilmcfayden/")}
   const twitterPage = () => { window.open("https://twitter.com/NeilMcfayden")}
+  const emailPage = () => { window.open("mailto:neilmcfayden@hotmail.co.uk")}
 
   return (
     <Container className="homepage">
@@ -23,8 +24,9 @@ const Home = () => {
       </div>
       <div className="contacts">
       <button type="button" className="map-button" onClick={twitterPage}>Twitter</button>
-      <button type="button" className="map-button" onClick={gitHubPage}> GitHub </button>
-      <button type="button" className="map-button" onClick={linkedInPage}> LinkedIn </button>
+      <button type="button" className="map-button" onClick={gitHubPage}>GitHub</button>
+      <button type="button" className="map-button" onClick={linkedInPage}>LinkedIn</button>
+      <button type="button" className="map-button" onClick={emailPage}>Email</button>
       </div>
     </Container>
   )

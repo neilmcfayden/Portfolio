@@ -17,8 +17,8 @@ const About = () => {
       <div className="skills">
         <p><span className="skill">Front-end:</span> HTML, CSS, SASS, React BootStrap, JavaScript, React JS, MapBox, Axios</p>
         <p><span className="skill">Back-end:</span> Node.js, Express, MongoDB, Mongoose, Python, Django, PostgreSQL, TablePlus, Insomnia</p>
-        <p><span className="skill">Package/Other:</span> Heroku, Yarn, NPM, GitHub, Figma, ExcaliDraw, Trello.</p>
-        <p><span className="skill">Soft skills:</span> Project Management, Managing People, Financial Management, Advanced Problem Solving Skills.</p>
+        <p><span className="skill">Package/Other:</span> Heroku, Yarn, NPM, GitHub, Figma, ExcaliDraw, Trello</p>
+        <p><span className="skill">Soft skills:</span> Project Management, Managing People, Financial Management, Advanced Problem Solving Skills</p>
       </div>
       {/* <Link to="/portfolio"><button type="button" className="home-button">Software Portfolio</button></Link> */}
     </Container>

@@ -22,9 +22,11 @@ const Poker = () => {
       <div className="links">
         <h3>External links</h3>
         <p>Below you will find my Hendon Mob database with my live poker results as well as my World Seies of Poker Profile and my pocket fives profile page which shows my online poker results.</p>
-        <button type="button" className="home-button" onClick={livePoker}>Live Poker Results </button>
-        <button type="button" className="home-button" onClick={onlinePoker}>Online Poker results </button>
-        <button type="button" className="home-button" onClick={wSOP}>World Series of Poker Results</button>
+        <div className = "project-links">
+          <button type="button" className="home-button" onClick={livePoker}>Live Poker Results </button>
+          <button type="button" className="home-button" onClick={onlinePoker}>Online Poker results </button>
+          <button type="button" className="home-button" onClick={wSOP}>World Series of Poker Results</button>
+        </div>
         
       </div>
       <div className="poker-gallery">
