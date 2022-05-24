@@ -14,6 +14,8 @@ h2 {
 
 h1 {
   color: aquamarine;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .map-button {
   width: 80px;
@@ -24,8 +26,8 @@ h1 {
   font-family: fantasy;
   margin-right: 15px;
   margin-left: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 
 }
 
@@ -35,3 +37,23 @@ h1 {
   justify-content: center;
 }
 
+.photo-portfolio {
+  height: 200px;
+  width: 150px;
+  margin: 10px;
+}
+
+.photo-space {
+  height: 200px;
+  width: 320px;
+  margin: 10px;
+}
+
+.portfolio-p {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.port-skills {
+  color: pink;
+}

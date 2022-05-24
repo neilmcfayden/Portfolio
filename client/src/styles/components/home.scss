@@ -21,7 +21,7 @@
   width: 180px;
   height: 100px;
   background-color: #7C9EB2;
-  color: aquamarine;
+  color: #12263A;
   font-size: larger;
   border-radius: 10px;
   font-family: fantasy;
@@ -31,8 +31,21 @@
   color: #7C9EB2;
 }
 .title-div {
-  margin-top: 10pc;
+  margin-top: 10px;
 }
 .contacts {
   margin-top: 40px;
+}
+.photo-home {
+  height: 400px;
+  width: 560px;
+ 
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: larger;
+  margin-left: 120px;
+  margin-right: 120px;
 }
